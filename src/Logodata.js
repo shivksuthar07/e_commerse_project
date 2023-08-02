@@ -1,0 +1,44 @@
+ const Logodata=[
+    {
+        id:"audi",
+        title:"AUDI",
+        img:"https://www.freepngimg.com/thumb/car%20logo/28-audi-car-logo-png-brand-image.png",
+      
+    },
+    {
+        id:"bmw",
+        title:"BMW",
+        img:"https://listcarbrands.com/wp-content/uploads/2015/10/bmw-logo-black-and-white.jpg"
+    },
+    {
+        id:"hundai",
+        title:"HUNDAI",
+        img:"https://purepng.com/public/uploads/medium/purepng.com-hyundai-logohyundaihyundai-carshyundai-manufacturerhyundai-automobileslogo-1701527487368ipii3.png"
+    },
+    {
+        id:"foxwagon",
+        title:"FOXWAGON",
+        img:"https://i.pinimg.com/originals/a3/f1/19/a3f11914a0eef8ad3834bca64cc359aa.png"
+    },
+    {
+        id:"nisan",
+        title:"NISAN",
+        img:"http://1.bp.blogspot.com/-XmjU2gE_I7o/VZAV_NPQOvI/AAAAAAAADBA/I4GX7I-LbZk/s1600/Nissan-Black-white-vector-logo.png"
+    },
+    {
+        id:"toyoto",
+        title:"TOYOTO",
+        img:"https://clipground.com/images/toyota-logo-png-9.png"
+    },
+    {
+        id:"ford",
+        title:"FORD",
+        img:"https://1.bp.blogspot.com/_eYVY2wHE4D0/TAZ32zmtmXI/AAAAAAAAALU/aAcWLPCN5Yc/s1600/Ford_Logo_2.jpg"
+    },
+    {
+        id:"suzuki",
+        title:"SUZUKI",
+        img:"https://pluspng.com/img-png/suzuki-logo-png-suzuki-motorcycle-logo-png-car-suzuki-logo-transparent-png-920x570.jpg"
+    }
+]
+export default Logodata;

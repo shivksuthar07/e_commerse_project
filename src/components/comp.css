@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav_ul{
+    margin:auto;
+    margin-right: 50px;
+}
+.list_items {
+    padding: 20px;
+    text-decoration: none;
+}
+.list_items Link {
+    color: black;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+}
+a:hover{
+    color: rgb(72, 100, 191);
+    transition: ease 0.7s;
+}
+.nav_ul2{
+  margin: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* .cont_info{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    
+} */
+
+/* .free_info{
+    margin-top: 23%;
+    
+}
+@media screen and (max-width: 768px) {
+    .cont_info div div{
+        display: flex;
+        flex-direction: row;
+    }
+} */
+@media screen and (max-width: 767px){
+    .contact_form{
+        display: flex;
+        justify-content: center;
+    }
+}
+.footer{
+    background-color: rgb(32, 31, 31);
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    position: relative;
+   
+    top: 100vh;
+   
+  
+   
+}
+.card{
+   
+    border-radius: 0;
+    
+}
+.grid_elem{
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+}
+
+.grid_two_elem{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Feature_one {
+    height: 20rem;
+    text-align: center;
+   
+    
+}
+.Feature_one h3{
+  line-height: 20rem;
+}
+.card:hover{
+    box-shadow: 2px 2px 5px 1px #888888;
+    transition: ease 0.5s;
+   
+}
+.del_one{
+    background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 10rem;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 5px;
+}
+.col_row_one{
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 5rem;
+   margin: 2rem;
+   border-radius: 5px;
+   text-align: center;
+
+}
+.col_row_two{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 2rem;
+    border-radius: 5px;
+    text-align: center;
+
+}
+i{
+    font-size: 30px;
+}
+
+
+
+
+.dil_last{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 10rem;
+     flex-direction: column;
+     margin: 2rem;
+     border-radius: 5px;
+}
+.trust_row{
+    display: flex;
+    
+}
+.card{
+    cursor: pointer;
+}
+.login_form_col1{
+    margin-top: 10rem;
+    text-align: center;
+}
+.regi_form{
+    margin-top: 7rem;
+    border:hidden;
+    background-color: #f4fafb;
+    width: 40rem;
+    height: 30rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    border-radius: 10px;
+      
+}
+.regi_form form{
+   width: 70%;
+}
